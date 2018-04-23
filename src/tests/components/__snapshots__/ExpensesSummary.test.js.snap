@@ -1,13 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should correct render ExpensesSummary with 1 expense 1`] = `
-<div>
-  <p>
-    Viewing 
-    1
-     expense
-     totalling 
-    $195.00
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header-title"
+    >
+      Viewing 
+      <span>
+        1
+      </span>
+       expense
+       totalling 
+      <span>
+        $195.00
+      </span>
+    </h1>
+    <div
+      className="page-header-actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;
